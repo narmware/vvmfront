@@ -133,8 +133,8 @@
                                                 <li><a href="#">Blog</a></li>
                                             </ul>
                                         </div>-->
-                                        <div class="content"><a href="#"><i class="zmdi zmdi-sign-in"></i> Institute Login</a></div>
-                                        <div class="content"><a href="#"><i class="zmdi zmdi-shopping-basket"></i> Student Login</a></div>
+                                        <div class="content"><a href="login/Institute-Sign-In.php"><i class="zmdi zmdi-sign-in"></i> Institute Login</a></div>
+                                        <div class="content"><a href="#"><i class="zmdi zmdi-sign-in"></i> Student Login</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -145,7 +145,7 @@
                             <div class="row">
                                 <div class="col-md-3 col-sm-12">
                                     <div class="logo">
-                                        <a href="index.html">Vidyarthi Vigyan Manthan<!--<img src="img/logo/logo.png" alt="EDUCAT">--></a>
+                                        <a href="index.php">Vidyarthi Vigyan Manthan<!--<img src="img/logo/logo.png" alt="EDUCAT">--></a>
                                     </div>
                                 </div>
                                 <div class="col-md-9 hidden-sm hidden-xs">
