@@ -1,13 +1,7 @@
-<?php
-        include "header.php";
-?>
-
-
-
-
-<!DOCTYPE html>
 <html>
-    <head>
+<head>
+<head>
+
         <meta charset="UTF-8">
         <title>Vidyarthi Vigyan Manthan</title>
         <link rel="SHORTCUT ICON" href= "http://vvm.org.in/wp-content/uploads/2015/07/favicon1.ico"/>
@@ -91,7 +85,7 @@
 
         </style>
     </head>
-    <script>
+	 <script>
         jQuery(document).ready(function ($) {
             $(window).load(function () {
                 $('#preloader').fadeOut('slow', function () {
@@ -101,68 +95,9 @@
         });
     </script>
     <div class="js">
-        <body>
-            
-           
-                <div class="anmid">
-                   <link href="http://vvm.org.in/assets/student/bootstrap.css" type="text/css" rel="stylesheet" />
-                    <link href="http://vvm.org.in/assets/student/bootstrap.min.css" type="text/css" rel="stylesheet" />
-                    <link href="http://vvm.org.in/assets/student/style.css" type="text/css" rel="stylesheet" />
-                    <link href="http://vvm.org.in/assets/student/owl.carousel.css" rel="stylesheet">
-                    <link href="http://vvm.org.in/assets/student/owl.theme.css" rel="stylesheet">
-                    <link href="http://vvm.org.in/assets/student/animate.min.css" rel="stylesheet" />
-                    <script src="http://vvm.org.in/assets/student/bootstrap.min.js" type="text/javascript"></script>
-                    <script src="http://vvm.org.in/assets/student/owl.carousel.js" type="text/javascript"></script>
-                    <script src="http://vvm.org.in/assets/student/wow.min.js" type="text/javascript"></script>
-                    <script src="http://vvm.org.in/assets/student/index.js" type="text/javascript"></script>
-                    <script src="http://vvm.org.in/assets/student/all.js" type="text/javascript"></script>
-                    <script>
-        $(document).ready(function () {
-           toggletabel();
-            $(".national_camp_qualifiers_wrapper_show").click(function () {
-                $(".content_state_camp_winners_show").hide();
-                $(".content_national_camp_qualifiers_show").toggle();
-                $("#state_camp_winners_hide").hide();
-                $("#state_camp_winners_show").show();
-                $("#national_camp_qualifiers_hide").toggle();
-                $("#national_camp_qualifiers_show").toggle();
-            });
-			$(".national_camp_level_wrapper_show").click(function () {
-                $(".content_state_camp_winners_show").hide();
-                $(".content_national_camp_level_show").toggle();
-                $("#state_camp_winners_hide").hide();
-                $("#state_camp_winners_show").show();
-                $("#national_camp_level_hide").toggle();
-                $("#national_camp_level_show").toggle();
-            });
-			//$(".national_camp_level_wrapper_show").trigger("click");
-        });
-		function toggletabel(){
-			$(".newsection").slideToggle();
-			$(".but").toggleClass('opendiv');
-			$(".but i").removeClass("glyphicon glyphicon-plus").addClass("glyphicon glyphicon-minus");
-			$(".but.opendiv i").removeClass("glyphicon glyphicon-minus").addClass("glyphicon glyphicon-plus");
-		}
-                    </script>
-                    <style>
-					.newsection{display:none;}
-                        #example{width:100%;margin:auto}
-                        #example thead,#example th{background-color: #93cddb}
-                        #example tbody th{width:5% !important}
-                        #example tbody td{width:45% !important}
-                        #example1{width:100%;margin:auto}
-                        #example1 thead,#example th{background-color: #93cddb}
-                        #example1 tbody th{width:4% !important}
-                        #example1 tbody td{width:29% !important}
-                        #minus_hide{display: none}
-                        #plus_hide{display: none}
-                        #tog_hide{display: none}
-                        #state_camp_winners_hide{display: none}
-                        #national_camp_qualifiers_hide{display: none}
-						#national_camp_level_hide{display: none}
-                        #all_results_hide{display: none}
-                    </style>
-                    <div class="row">
+
+<body>
+<div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <br>
                            <!-- <div style="text-align:center;background-color: yellowgreen;color: #fff;font-weight: normal;padding: 13px;border-radius: 5px;text-align: center;">
@@ -260,62 +195,8 @@ Tamil Nadu - 630003</td>
 											</tr>
 																				</tbody>
 						</table>
-						<h4 class="notice">*No TA will be provided. Students will have to meet the travel expenses at their own.</h4>				
+						
 						</div>
 						
-						
-						
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <!--<a href='http://vvm.org.in/auth/login'><button type="button" class="btn btn-info view-profile" style="background: darkorange;border-color:darkorange">-->
-                            <!--        <span style="margin-left: 25px">DOWNLOAD MERIT & APPRECIATION CERTIFICATES</span>-->
-                            <!--    </button></a>-->
-							<button id="national_level_camp1" type="button" class="btn btn-info view-profile national_camp_level_wrapper_show" data-toggle="collapse" data-target="#national_level_camp" style="background: darkorange;border-color:darkorange">
-                                <span class="pull-left"><i id="national_camp_level_show" class="glyphicon glyphicon-plus"></i><i id="national_camp_level_hide" class="glyphicon glyphicon-minus"></i></span>
-                                <span style="margin-left: 25px">NATIONAL CAMP RESULT</span>
-                            </button>
-                            <div id="national_level_camp" class="collapse content_national_camp_level_show">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> 
-                                    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">                                   
-                                    <table id="example" class="table table-bordered table-condensed table-stripped" cellspacing="0" width="100%">
-                                        <thead>
-                                            <tr>
-                                                <th style="text-align:center;width:5%">Sl.No.</th>
-                                                <!--<th style="text-align:center;width:45%">NATIONAL CAMP</th>-->
-												<th style="text-align:center;width:45%">NATIONAL CAMP</th>
-                                                <th style="text-align:center;width:5%">Sl.No.</th>
-												<th style="text-align:center;width:45%">NATIONAL CAMP</th>
-                                                <!--<th style="text-align:center;width:45%">NATIONAL CAMP</th>-->
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            
-											<tr>
-												<th>1</th>
-                                                <td><a href="http://vvm.org.in/uploads/results/VIDYARTHI VIGYAN MANTHAN zonal-result.pdf" target="_blank" title="RESULT">RESULT (ZONAL LEVEL WINNERS)</a></td>
-											
-												<th>2</th>
-                                                <td><a href="http://vvm.org.in/uploads/results/VIDYARTHI VIGYAN MANTHAN HIMALAYANS group-result.pdf" target="_blank" title="RESULT">RESULT (NATIONAL WINNERS - HIMALAYANS)</a></td>
-											</tr>
-                                            
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            
-                           
-                            
-                        </div>
-                    </div>
-                </div>
-                
-                
-                
-            </div>
-        </body>
-    </div>
-</html>
-
-<?php
-        include "footer.php";
-?>
+						</body>
+						</html>
