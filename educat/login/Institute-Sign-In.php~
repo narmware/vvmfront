@@ -167,7 +167,7 @@ function checklogin(){
             if(string=="TRUE")
             {
                 $('#msgcorrect').removeClass("hide");
-                window.location="Institute/";
+                window.location="pages/";
             }
             else
             {
