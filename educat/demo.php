@@ -1,9 +1,3 @@
-<?php
-        include "header.php";
-?>
-
-
-
 
 <!DOCTYPE html>
 <html>
@@ -105,7 +99,15 @@
             
            
                 <div class="anmid">
-                   <link href="http://vvm.org.in/assets/student/bootstrap.css" type="text/css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+                    <link href="http://vvm.org.in/assets/student/bootstrap.css" type="text/css" rel="stylesheet" />
                     <link href="http://vvm.org.in/assets/student/bootstrap.min.css" type="text/css" rel="stylesheet" />
                     <link href="http://vvm.org.in/assets/student/style.css" type="text/css" rel="stylesheet" />
                     <link href="http://vvm.org.in/assets/student/owl.carousel.css" rel="stylesheet">
@@ -315,7 +317,3 @@ Tamil Nadu - 630003</td>
         </body>
     </div>
 </html>
-
-<?php
-        include "footer.php";
-?>
