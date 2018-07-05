@@ -44,7 +44,7 @@
         <li>
             <div class="navbar-header">
                 <a href="javascript:void(0);" class="bars"></a>
-                <a class="navbar-brand" href="index.html"><img src="../assets/images/logo.svg" width="30" alt="Oreo"><span class="m-l-10">Vidyarthi Vigyan Manthan</span></a>
+                <a class="navbar-brand" href="index.php"><img src="../assets/images/logo.svg" width="30" alt="Oreo"><span class="m-l-10">Vidyarthi Vigyan Manthan</span></a>
             </div>
         </li>
         <li><a href="javascript:void(0);" class="ls-toggle-btn" data-close="true"><i class="zmdi zmdi-swap"></i></a></li>
@@ -79,13 +79,22 @@
             <div class="menu">
                 <ul class="list">                    
                     <li class="header">MAIN</li>
-                    <li> <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-home"></i><span>Dashboard</span></a>
+                    <li> <a href="index.php"><i class="zmdi zmdi-home"></i><span>Dashboard</span></a>
+                    <!--
                         <ul class="ml-menu">
                             <li><a href="student.php">Add Student</a> </li>
                             <li><a href="view-student.php">View Student</a></li>
                             <li><a href="edit-profile.php">Edit profile</a></li>
-                        </ul>
+                        </ul>-->
                     </li>
+                    <li> <a href="edit-profile.php"><i class="material-icons">edit</i><span>Edit Profile</span></a>
+                    </li>
+
+                    <li> <a href="student.php"><i class="material-icons">person_add</i><span>Add Student</span></a>
+                    </li>
+                    <li> <a href="student.php"><i class="material-icons">person</i><span>Student List</span></a>
+                    </li>
+
                     <!---
                     <li class="header">Extra</li>
                     <li>
@@ -115,7 +124,7 @@
                 <ul class="list">
                     <li>
                         <div class="user-info m-b-20 p-b-15">
-                            <div class="image"><a href="edit-profile.php"><img src="../assets/images/modern-Monogram.jpg" alt="User"></a></div>
+                            <div class="image"><a href="edit-profile.php"><img src="../assets/images/institute.png" alt="User"></a></div>
                             <div class="detail">
                                 <h4><?php echo $details['inst_name'];?></h4>
                                 <a href="edit-profile.php">Edit profile</a>
