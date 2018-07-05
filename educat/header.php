@@ -157,18 +157,18 @@
                                                     </li>
                                                     <li><a href="#">About Us</a>
                                                         <ul class="sub-menu">
-                                                            <li><a href="#">Structure of VVM</a></li>
-                                                            <li><a href="#">Objectives Of VVM</a></li>
-                                                            <li><a href="#">Organising Team</a></li>
-                                                            <li><a href="#">Organisers</a></li>
-                                                            <li><a href="#">Academic Commitee Members</a></li>
-                                                            <li><a href="#">VVM Privacy Policy</a></li>
+                                                            <li><a href="structure_of_vm.php">Structure of VVM</a></li>
+                                                            <li><a href="objectives_of_vvm.php">Objectives Of VVM</a></li>
+                                                            <li><a href="organising_team.php">Organising Team</a></li>
+                                                            <li><a href="about_organisers.php">Organisers</a></li>
+                                                            <li><a href="academic_committe_members.php">Academic Commitee Members</a></li>
+                                                            <li><a href="privacy_policy.php">VVM Privacy Policy</a></li>
                                                         </ul>
                                                     </li>
                                                     <li><a href="#">Examination Details</a>
                                                         <ul class="sub-menu">
-                                                            <li><a href="#">School Level Examinations</a></li>
-                                                            <li><a href="#">Syllabus</a></li>
+                                                            <li><a href="school_level_examinations.php">School Level Examinations</a></li>
+                                                            <li><a href="syllabus.php">Syllabus</a></li>
                                                             <li><a href="#">Student Awards</a></li>
                                                             <li><a href="#">Regisstration</a></li>
                                                             <li><a href="#">Important Dates</a></li>
