@@ -51,7 +51,7 @@
                         <div class="logo-container">
                             <img src="assets/images/logo.svg" alt="">
                         </div>
-                        <h5>Log in</h5>
+                        <h5>Student Log in</h5>
                     </div>
                     <div class="content">                                                
                         <div class="input-group input-lg">
